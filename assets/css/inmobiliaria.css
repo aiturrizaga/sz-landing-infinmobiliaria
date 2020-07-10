@@ -1,0 +1,87 @@
+:root {
+  --lp-primary: #01509f;
+  --lp-accent: #006bd6;
+  --lp-secondary: #d9b439;
+  --lp-gray: #cccccc;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
+}
+
+.navbar {
+  padding: 2.2rem 4rem 1.2rem 4rem !important;
+}
+
+.nav-item {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-item .nav-link {
+  color: var(--lp-primary) !important;
+}
+
+.nav-item.active {
+  border: 1px solid var(--lp-primary);
+  background-color: var(--lp-primary);
+}
+
+.nav-item.active .nav-link {
+  color: #ffffff !important;
+}
+
+.btn-primary {
+    background-color: var(--lp-primary) !important;
+}
+
+.bd-separator-secondary {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 0.1rem;
+  height: 1.6rem;
+  background-color: var(--lp-secondary);
+}
+
+.banner-container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.banner-text {
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  text-align: left;
+}
+
+.baner-text-primary {
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: var(--lp-primary);
+}
+
+.baner-text-secondary {
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 3.3rem;
+  color: var(--lp-secondary);
+}
+
+.banner-button {
+  position: absolute;
+  top: 70%;
+  right: 5%;
+}
+
+@media (max-width: 767.98px) {
+  .navbar {
+    padding: 1.2rem 0.8rem !important;
+  }
+  .navbar-brand img {
+    width: 13rem;
+  }
+}
