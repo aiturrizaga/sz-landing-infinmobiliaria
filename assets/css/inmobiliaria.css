@@ -226,11 +226,73 @@ button:active.owl-next {
   font-weight: 550;
 }
 
+.font-color-gray {
+  font-size: 1.2rem;
+  color: #777777;
+}
+
+/* Small devices */
 @media (max-width: 767.98px) {
   .navbar {
     padding: 1.2rem 0.8rem !important;
   }
   .navbar-brand img {
     width: 13rem;
+  }
+  .banner-text {
+    top: 10%;
+    right: 2%;
+  }
+  .baner-text-primary {
+    font-size: 1rem !important;
+    font-weight: 500;
+    line-height: 1rem !important;
+  }
+  .baner-text-secondary {
+    font-size: 1.2rem !important;
+    font-weight: 600;
+    line-height: 1rem !important;
+  }
+  .owl-prev,
+  .owl-next {
+    display: none;
+  }
+  .center-div {
+    width: 100%;
+  }
+  .font-color-gray {
+    font-size: 1rem;
+  }
+}
+
+/* Medium devices */
+@media (max-width: 991.98px) {
+  .baner-text-primary {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+  }
+  .baner-text-secondary {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+  }
+  .owl-prev,
+  .owl-next {
+    position: absolute;
+    top: 0;
+    height: 100%;
+  }
+  .owl-prev {
+    left: -32px;
+  }
+  .owl-next {
+    right: -32px;
+  }
+  .center-div {
+    width: 100%;
+  }
+  .font-color-gray {
+    font-size: 1rem;
   }
 }
