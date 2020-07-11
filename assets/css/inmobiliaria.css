@@ -263,6 +263,15 @@ button:active.owl-next {
   .font-color-gray {
     font-size: 1rem;
   }
+  .mb-sm-4 {
+    margin-bottom: 1.5rem !important;
+  }
+  .btn-on-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+  }
 }
 
 /* Medium devices */
@@ -294,5 +303,8 @@ button:active.owl-next {
   }
   .font-color-gray {
     font-size: 1rem;
+  }
+  .float-left-sm {
+    float: left;
   }
 }
