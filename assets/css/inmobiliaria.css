@@ -231,6 +231,28 @@ button:active.owl-next {
   color: #777777;
 }
 
+.font-color-primary-foo {
+  font-size: 2.2rem;
+  color: var(--lp-primary);
+}
+
+.font-whatsapp-number {
+  font-weight: 500;
+  color: var(--lp-primary);
+}
+
+.font-slogan-footer {
+  color: var(--lp-accent);
+}
+
+footer {
+  width: 100%;
+  padding-right: 4rem;
+  padding-left: 4rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Small devices */
 @media (max-width: 767.98px) {
   .navbar {
