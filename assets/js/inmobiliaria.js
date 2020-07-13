@@ -54,3 +54,31 @@ function playVideo(e) {
 
   videoContainer.innerHTML = `<iframe src="${iframeUrl}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>`;
 }
+
+function sendMail() {
+  const names = $("#txtNames").val();
+  const email = $("#txtEmail").val();
+  const consulta = $("#txtConsulta").val();
+
+  if (names === "") {
+    alert("Debe ingresar su nombre");
+    return;
+  }
+
+  if (email === "") {
+    alert("Debe ingresar su correo electrónico");
+    return;
+  }
+
+  if (consulta === "") {
+    alert("Debe ingresar su consulta");
+    return;
+  }
+
+  var nombre = encodeURIComponent("Hola soy " + names + " y estoy interesado");
+  var desc = encodeURIComponent(`Mi correo: ${email}. Consulta: ${consulta}`);
+
+  const openMail = `mailto:inmobiliaria.inf@infperu.com?Subject=${nombre}&body=${desc}`;
+
+  window.open(openMail)
+}

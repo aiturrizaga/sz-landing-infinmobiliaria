@@ -71,6 +71,27 @@ body {
   color: var(--lp-gray);
 }
 
+.text-primary {
+  color: var(--lp-primary) !important;
+}
+
+.text-primary.font-wg-500 {
+  font-weight: 500 !important;
+  font-size: 1.1rem;
+}
+
+.text-own-asesoras {
+  font-size: 4rem;
+  line-height: 3.8rem;
+}
+
+.contact-container {
+  background-image: url("../images/home/contactanos.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .banner-container {
   position: relative;
   display: inline-block;
@@ -160,6 +181,11 @@ button:active.owl-next {
 
 .card-content-footer {
   padding: 1.2rem 0.1rem;
+}
+
+.px-3 {
+  padding-left: 2.4rem !important;
+  padding-right: 2.4rem !important;
 }
 
 .px-4 {
@@ -266,14 +292,18 @@ footer {
     right: 2%;
   }
   .baner-text-primary {
-    font-size: 1rem !important;
+    font-size: .8rem !important;
     font-weight: 500;
-    line-height: 1rem !important;
+    line-height: .5rem !important;
   }
   .baner-text-secondary {
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
     font-weight: 600;
-    line-height: 1rem !important;
+    line-height: .5rem !important;
+  }
+  .banner-button button {
+    margin-top: .8rem;
+    font-size: .6rem !important;
   }
   .owl-prev,
   .owl-next {
