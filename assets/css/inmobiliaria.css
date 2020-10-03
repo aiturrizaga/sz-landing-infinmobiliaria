@@ -86,7 +86,7 @@ body {
 }
 
 .contact-container {
-  background-image: url("../images/home/contactanos.jpg");
+  background-image: url("../images/home/contactanos.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -292,18 +292,18 @@ footer {
     right: 2%;
   }
   .baner-text-primary {
-    font-size: .8rem !important;
+    font-size: 0.8rem !important;
     font-weight: 500;
-    line-height: .5rem !important;
+    line-height: 0.5rem !important;
   }
   .baner-text-secondary {
     font-size: 1rem !important;
     font-weight: 600;
-    line-height: .5rem !important;
+    line-height: 0.5rem !important;
   }
   .banner-button button {
-    margin-top: .8rem;
-    font-size: .6rem !important;
+    margin-top: 0.8rem;
+    font-size: 0.6rem !important;
   }
   .owl-prev,
   .owl-next {
