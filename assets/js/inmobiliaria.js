@@ -80,5 +80,11 @@ function sendMail() {
 
   const openMail = `mailto:inmobiliaria.inf@infperu.com?Subject=${nombre}&body=${desc}`;
 
-  window.open(openMail)
+  window.open(openMail);
 }
+
+$("ul.navbar-nav li").click(function (e) {
+ 
+  $("li").removeClass("active");
+  $(this).addClass("active");
+});
