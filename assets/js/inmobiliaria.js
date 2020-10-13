@@ -78,7 +78,8 @@ function sendMail() {
   var nombre = encodeURIComponent("Hola soy " + names + " y estoy interesado");
   var desc = encodeURIComponent(`Mi correo: ${email}. Consulta: ${consulta}`);
 
-  const openMail = `mailto:inmobiliaria.inf@infperu.com?Subject=${nombre}&body=${desc}`;
+  const companyEmail = 'inmobiliaria.inf@gmail.com';
+  const openMail = `mailto:${companyEmail}?Subject=${nombre}&body=${desc}`;
 
   window.open(openMail);
 }
